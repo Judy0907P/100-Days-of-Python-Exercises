@@ -14,7 +14,7 @@ print(placeholder)
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 #TODO-6 - use the while loop to let the user guess again
 game_over: bool = False
-correct_letters=[]
+correct_letters: list[str] = []
 while not game_over:
     guess = input("Guess a letter: ")
 
