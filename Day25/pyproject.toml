@@ -1,14 +1,9 @@
 [project]
-name = "100daysofpthon"
+name = "day25"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "prettytable>=3.17.0",
-]
-
-[tool.uv.workspace]
-members = [
-    "Day25",
+    "pandas>=3.0.1",
 ]
