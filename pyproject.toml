@@ -5,11 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "colorgram-py>=1.2.0",
     "prettytable>=3.17.0",
 ]
 
-[tool.uv.workspace]
-members = [
-    "Day25",
-    "DAY18/hirst-painting-start",
-]
+
